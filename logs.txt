@@ -1,0 +1,39 @@
+C:\Users\Aleksandar\Desktop\SI_2023_lab1_172024>git log
+commit 33268e5892bfb572f8368a84849b480140c4f0f5 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Aleksandar <aleksandar.k13@gmail.com>
+Date:   Sun Apr 9 22:32:31 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 5de78011b7b11e8aa2d3bb03d06826448867e8aa
+Merge: ce1db33 f29edce
+Author: Aleksandar <aleksandar.k13@gmail.com>
+Date:   Sun Apr 9 22:51:42 2023 +0200
+
+    Merge branch 'bug2'
+
+commit f29edcec34a5d5ce866c1ff1d68884df38ee55f3 (origin/bug2, bug2)
+Author: Aleksandar <aleksandar.k13@gmail.com>
+Date:   Sun Apr 9 22:24:01 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit ce1db333f3104f8d842c0535b85734fa28b05b4a (origin/bug1, bug1)
+Author: Aleksandar <aleksandar.k13@gmail.com>
+Date:   Sun Apr 9 21:26:11 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 46c43f3c253f2aa29e46e72cccbc1e590fd5f267
+Author: Aleksandar <aleksandar.k13@gmail.com>
+Date:   Sun Apr 9 19:19:47 2023 +0200
+
+    Add java class
+
+commit eb6e366eba161c77c536d5b933af632e6eb7aa6b
+Author: Aleksandar <aleksandar.k13@gmail.com>
+Date:   Sun Apr 9 18:32:57 2023 +0200
+
+    Initial commit
+
+(END)

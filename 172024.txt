@@ -1,0 +1,28 @@
+1. Instaliranje na Git i kreiran e Github profil.
+2. Imeto na glavnata granka e promeneto vo master.
+3. Kreiran e privaten remote repozitorium na Github so ime SI_2023_lab1_172024.
+4. Kreiran e lokalen repozitorium so ime SI_2023_lab1_172024, i inicializiran e Git so pomosh na komandite : C:\Users\Aleksandar>cd Desktop -> C:\Users\Aleksandar\Desktop>mkdir SI_2023_lab1_172024 -> C:\Users\Aleksandar\Desktop>cd SI_2023_lab1_172024 -> C:\Users\Aleksandar\Desktop\SI_2023_lab1_172024>git init. So pomosh na komandite  git config --global user.email aleksandar.k13@gmail.com i git config --global user.name Aleksandar Kalajdziev se vnesuvaat globalnite postavki za kredintenciali so koj se ovozmozhuva ponatamoshn rabota.
+5. Povrzan e lokaniot repozitorium so oddalecheniot repozitorium koristejki ja komandata  git remote add origin https://github.com/Kalaj13/SI_2023_lab1_172024
+6. Datotekata README.md e dodadena so pomosh na komandata git add --all, i izvrshen e commit so poraka "Initial commit" koristejki ja komandata git commit -m "Initial commit".
+7. Fajlot SILab1.java e dodaden so pomosh na komandata git add -A, i izvrshen e commit so poraka "Add java class" koristejki ja komandata git commit -m "Add java class".
+8. So komandata git pull origin master najprvo se sinhnoriziraat lokalniot i oddalecheniot repozitorium taka shto site promeni od oddalecheniot repozitorium se dodavaat na lokalniot, potoa so git push origin master komandata dosegashnite izmeni vo lokalniot repozitorium se dodavaat na oddalecheniot repozitorium, po ova dvata repozitoriuma se sinhroniziraat. Mozeshe da se iskoristi samo komandata git push origin master bidejki predhodno oddalecheniot repozitorium e prazen.
+9. Kreirani se tri novi granki bug1, bug2 i bug3 koj se razdeluvaat od master grankata so koristenje na trite komandi soodvetno: git branch bug1, git branch bug2 i git branch bug3.
+10. So komandata git checkout bug1 se prefrlame na grankata bug1.
+11. Po popravenata greshka vo for ciklusot napraven e komit so poraka "Fix wrong loop for reading" koristejki ja komandata: git commit -a -m "Fix wrong loop for reading".
+12. Se prefrlame na grankata bug2 so komandata git checkout bug2.
+13. Po popravenata greshka vo metodot filterOddNumbers napraven e komit so poraka "Fix wrong condition in filterOddNumbers" koristejki ja komandata: git commit -a -m "Fix wrong condition in filterOddNumbers".
+14. Se prefrlame na grankata bug3 so komandata git checkout bug3.
+15. Po popravenata greshka vo metodot sumEvenNumbers napraven e komit so poraka "Fix method sumEvenNumbers" koristejki ja komandata: git commit -a -m "Fix method sumEvenNumbers".
+16. Gi sinhronizirame site granki so oddalecheniot repozitorium so komandata git push --all origin.
+17. Se prefrlame na master grankata so komandata git checkout master.
+18. Ja spojuvame grankata bug1 kon grankata master so komandata git merge bug1.
+19. Gi sinhronizirame site granki so oddalecheniot repozitorium so komandata git push --all origin.
+20. Ja spojuvame grankata bug2 kon grankata master so komandata git merge bug2.
+21. Gi sinhronizirame site granki so oddalecheniot repozitorium so komandata git push --all origin.
+22. Se prefrlame na grankata bug3 so komandata git checkout bug3.
+23. So komandata git rebase master pravime rebase sprema grankata master.
+24. Se prefrlame na master grankata so komandata git checkout master.
+25. Ja spojuvame grankata bug3 kon grankata master so komandata git merge bug3. 
+26. Gi sinhronizirame site granki so oddalecheniot repozitorium so komandata git push --all --force origin.
+27. Dodadeni se datotekite logs.txt i INDEX.txt vo repozitoriumot so komandata git add -A, i napraven e commit so poraka "Final commit", so komandata git commit -m "Final commit".
+28. Site granki se sinhronizirani so oddalecheniot repozitorium so komandata git push origin master.
